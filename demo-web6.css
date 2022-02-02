@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    
+    background-color: #ecf0f3;
+    align-content: center;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    
+}
+
+.container{
+    width: 300px;
+    height: 480px;
+    margin: 100px auto;
+    box-shadow: 13px 13px 20px #cbced1 , -0px -13px 20px white;
+    border-radius: 15px;
+    background-color:#ecf0f3 ;
+    margin-bottom: 10px;
+    
+}
+.profile{
+    
+    margin: 0 auto;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%; 
+   
+   
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 0px 3px white,
+                5px 5px 10px grey,
+                -0px -7px 15px rgb(252, 239, 242);
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.title{
+    height: fit-content;
+    width: fit-content;
+    margin: 0px auto;
+    font-size: 12px;
+    font-weight:400 ;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.intro{
+    height: fit-content;
+    width: fit-content;
+    margin: 3px auto;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.nav{
+    /* background-color:none ; */
+     /* height: 45px; */
+    /* width: 260px; 
+    /* box-shadow: inset 10px 10px 15px white ; */
+    margin: 70px 17px 0px 17px;
+    /* border: 1px solid red; */
+    box-shadow: inset 8px 8px 10px #cbced1, inset -8px -8px 10px #fff; 
+    border-radius: 10px;
+    box-sizing: border-box;
+   
+}
+
+.nav input{
+    /* margin: 70px 0px 0px 0px; */
+    /* width: 100%; */
+     /* height: 40px; */
+    /* box-shadow: inset 10px 10px 15px white ; */
+    background: none ;
+    border: none;
+    /* float: right; */
+    margin: 0px 0 14px 7px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+   
+
+
+
+}
+
+.svg-icon{
+    height: 22px;
+    padding: 20px 0 0 20px;
+}
+.pp{
+    margin-top: 20px;
+}
+
+ button{
+     width: 200px;
+     height: 40px;
+     border-radius: 30px;
+     background-color: #24cfaa;
+     margin: 30px 0 0 53px;
+     box-shadow: 5px 5px 10px #a2a4a7 ;
+     border:none;
+ }
+.foot{
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 14px;
+}
